@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesversários do Bento</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #3e5b45;
+        }
+        header {
+            background-color: #a8c5a0;
+            padding: 30px 20px;
+            border-bottom: 5px solid #6b8e6e;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #3e5b45;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px 20px;
+        }
+        .photo {
+            background: #f0f8f2;
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .photo:hover {
+            transform: scale(1.03);
+        }
+        .photo img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 15px;
+            border: 3px solid #6b8e6e;
+        }
+        .caption {
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #4e6b50;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #a8c5a0;
+            color: #3e5b45;
+            font-size: 16px;
+            border-top: 5px solid #6b8e6e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mesversários do Bento</h1>
+    </header>
+
+    <div class="gallery">
+        <div class="photo">
+            <img src="nascimento.jpeg" alt="Foto de Nascimento do Bento">
+            <div class="caption">Nascimento - 27/02/2025</div>
+        </div>
+
+        <div class="photo">
+            <img src="primeiromes.jpeg" alt="Foto do 1º Mesversário do Bento">
+            <div class="caption">1º Mesversário - 27/03/2025</div>
+        </div>
+    </div>
+
+    <footer>
+        Feito para os Mêsversários do Bento ❤️
+    </footer>
+</body>
+</html>
